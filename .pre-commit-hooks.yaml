@@ -1,5 +1,5 @@
 -   id: pip-comile-lock
-    name: check for added large files
+    name: Compiling pip dependency graph
     description: Compile requirements.[in|txt] into a locked dependency tree requirements file.
     entry: pip-comile-lock
     language: python
