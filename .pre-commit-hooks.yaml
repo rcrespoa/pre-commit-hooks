@@ -1,7 +1,7 @@
--   id: pip-comile-lock
+-   id: pip-compile-lock
     name: Compiling pip dependency graph
     description: Compile requirements.[in|txt] into a locked dependency tree requirements file.
-    entry: pip-comile-lock
+    entry: pip-compile-lock
     language: python
     stages: [commit, push, manual]
 -   id: run-pytest-cov
