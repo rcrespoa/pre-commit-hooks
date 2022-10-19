@@ -4,3 +4,9 @@
     entry: pip-comile-lock
     language: python
     stages: [commit, push, manual]
+-   id: run-pytest-cov
+    name: Pytest & Coverage
+    description: Run tests and coverage report
+    entry: run-pytest-cov
+    language: python
+    stages: [commit, push, manual]
